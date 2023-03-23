@@ -1,4 +1,4 @@
-#include "nain.h"
+#include "main.h"
 
 /**
  * _isdigit - checks if c is digit between 0 and 9
