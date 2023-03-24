@@ -1,21 +1,11 @@
-#include <stdio.h>
-#include "main.h"
+#include <mai.h>
 
 /**
- * print_line - draws a straight line in the terminal.
- * @n: The number of _ characters to be printed.
+ * _abs - computes the absolute value for an interger
+ * @n: interger to be tested
+ * Return: 0 or 1
  */
-
-void print_line(int n)
+int _abs(int n)
 {
-int line;
-
-if (n > 0)
-{
-for (line = 0; line < n; line++)
-{
-putchar('_');
-}
-}
-putchar('\n');
+	return (n < 0 ? -1 * n : n);
 }
